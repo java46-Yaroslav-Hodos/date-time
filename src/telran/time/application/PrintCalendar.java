@@ -96,7 +96,7 @@ public class PrintCalendar {
 	private static void printWeekDays() {
 		System.out.print("  ");
 		for (DayOfWeek weekDay : daysOfWeek) {
-			System.out.printf("%s  ", weekDay.getDisplayName(TextStyle.SHORT, Locale.getDefault()));
+			System.out.printf("%s ", weekDay.getDisplayName(TextStyle.SHORT, Locale.getDefault()));
 		}
 		System.out.println();
 
